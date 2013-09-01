@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    font-size: 13px;
+}
+div.wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+div.center {
+    width: 740px;
+    margin-right: 10px;
+    padding: 5px;
+    float:left;
+}
+div.right {
+    width: 190px;
+    padding: 5px;
+    float: left;
+}
+fieldset {
+    padding: 10px;
+}
+/*login form*/
+#loginForm {
+    margin-top: 20px;
+}
+#loginForm div.login-form-textfield {
+    display: block;
+    width: 100%;
+}
+#loginForm div.login-form-textfield label {
+    text-align: center;
+    display: block;
+    font-size: 10px;
+}
+#loginForm input[type="text"],#loginForm input[type="password"] {
+    width: 100%;
+}
+/*registration form*/
+#registrationForm {
+    margin-top: 20px;
+    width: 300px;
+}
+#registrationForm div.login-form-textfield {
+    display: block;
+    width: 100%;
+}
+#registrationForm div.login-form-textfield label {
+    text-align: center;
+    display: block;
+    font-size: 10px;
+}
+#registrationForm input[type="text"],#registrationForm input[type="password"] {
+    width: 100%;
+}
+/*homepage*/
+#removeImageButton,
+#getImageLink {
+    border: 1px solid gray;
+}
